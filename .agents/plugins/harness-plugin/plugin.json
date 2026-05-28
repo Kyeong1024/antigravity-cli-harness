@@ -1,0 +1,5 @@
+{
+  "name": "harness-plugin",
+  "description": "Antigravity CLI용 팀 아키텍처 팩토리: 도메인 한 문장을 플러그인(Subagent, Skill 세트)으로 변환하는 메타 스킬.",
+  "version": "1.0.0"
+}
