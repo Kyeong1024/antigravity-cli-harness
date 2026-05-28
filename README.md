@@ -2,6 +2,33 @@
 
 A meta-skill that turns a one-line domain description into a working multi-agent team for the **Antigravity CLI**.
 
+## Quick start
+
+**1. Install the harness plugin**
+
+Choose the scope that fits your workflow:
+
+- **Global install** — available in every Antigravity CLI session:
+  ```bash
+  mkdir -p ~/.gemini/config/plugins
+  cp -R .agents/plugins/harness-plugin ~/.gemini/config/plugins/
+  ```
+- **Workspace install** — scoped to a single project. Copy the `.agents/` folder into the project root:
+  ```bash
+  cp -R .agents /path/to/your/project/
+  ```
+
+Workspace definitions take precedence over global ones, so you can iterate on a project-specific harness without touching the global install.
+
+**2. Launch Antigravity CLI and request a harness**
+
+```bash
+agy
+> Build me a harness for {your-domain}.
+```
+
+The `harness` skill auto-triggers and walks you through scaffolding the team — subagents, skills, orchestrator, and the `AGENTS.md` trigger entry.
+
 ## What it does
 
 Tell the harness *"build me a harness for X"* and it scaffolds, in one go:

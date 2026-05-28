@@ -2,6 +2,33 @@
 
 한 줄의 도메인 설명을 **Antigravity CLI**를 위한 실무적 다중 에이전트 팀으로 변환하는 메타 스킬입니다.
 
+## 빠른 시작
+
+**1. 하네스 플러그인 설치**
+
+사용 범위에 맞는 방식을 선택하세요:
+
+- **전역 설치** — 모든 Antigravity CLI 세션에서 사용 가능:
+  ```bash
+  mkdir -p ~/.gemini/config/plugins
+  cp -R .agents/plugins/harness-plugin ~/.gemini/config/plugins/
+  ```
+- **워크스페이스 설치** — 특정 프로젝트에만 적용. `.agents/` 폴더를 프로젝트 루트에 복사:
+  ```bash
+  cp -R .agents /path/to/your/project/
+  ```
+
+워크스페이스 정의가 전역 설정보다 우선하므로, 전역 설치를 건드리지 않고 프로젝트별 하네스를 반복 개선할 수 있습니다.
+
+**2. Antigravity CLI 실행 후 하네스 요청**
+
+```bash
+agy
+> {도메인}에 대한 하네스를 만들어줘.
+```
+
+`harness` 스킬이 자동으로 트리거되어 서브에이전트, 스킬, 오케스트레이터, 그리고 `AGENTS.md` 트리거 항목까지 팀 스캐폴딩 전 과정을 안내합니다.
+
 ## 기능
 
 하네스에 *"X에 대한 하네스를 만들어줘"*라고 말하면 한 번에 다음을 스캐폴딩합니다:
