@@ -1,5 +1,21 @@
 # Antigravity CLI Harness
 
+![Antigravity CLI](docs/images/antigravity-cli.png)
+
+<p align="center">
+  <a href="LISENCE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
+  <img src="https://img.shields.io/badge/Antigravity_CLI-Plugin-purple" alt="Antigravity CLI Plugin">
+  <a href="#architectural-patterns"><img src="https://img.shields.io/badge/Patterns-6_Architectures-orange" alt="6 Architectural Patterns"></a>
+  <img src="https://img.shields.io/badge/Mode-Agent_Teams-green" alt="Agent Teams">
+  <a href="https://github.com/Kyeong1024/antigravity-cli-harness/stargazers"><img src="https://img.shields.io/github/stars/Kyeong1024/antigravity-cli-harness?style=flat&logo=github" alt="GitHub Stars"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Layer-Meta--Skill-orange" alt="Meta-Skill Layer">
+  <img src="https://img.shields.io/badge/Sub--layer-Team_Architecture_Factory-teal" alt="Team Architecture Factory">
+  <a href="README.md"><img src="https://img.shields.io/badge/README-EN_|_KO-lightgrey" alt="README languages"></a>
+</p>
+
 A meta-skill that turns a one-line domain description into a working multi-agent team for the **Antigravity CLI**.
 
 ## Quick start

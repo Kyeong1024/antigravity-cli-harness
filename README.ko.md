@@ -1,5 +1,21 @@
 # Antigravity CLI 하네스
 
+![Antigravity CLI](docs/images/antigravity-cli.png)
+
+<p align="center">
+  <a href="LISENCE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
+  <img src="https://img.shields.io/badge/Antigravity_CLI-Plugin-purple" alt="Antigravity CLI Plugin">
+  <a href="#아키텍처-패턴"><img src="https://img.shields.io/badge/Patterns-6_Architectures-orange" alt="6 Architectural Patterns"></a>
+  <img src="https://img.shields.io/badge/Mode-Agent_Teams-green" alt="Agent Teams">
+  <a href="https://github.com/Kyeong1024/antigravity-cli-harness/stargazers"><img src="https://img.shields.io/github/stars/Kyeong1024/antigravity-cli-harness?style=flat&logo=github" alt="GitHub Stars"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Layer-Meta--Skill-orange" alt="Meta-Skill Layer">
+  <img src="https://img.shields.io/badge/Sub--layer-Team_Architecture_Factory-teal" alt="Team Architecture Factory">
+  <a href="README.md"><img src="https://img.shields.io/badge/README-EN_|_KO-lightgrey" alt="README languages"></a>
+</p>
+
 한 줄의 도메인 설명을 **Antigravity CLI**를 위한 실무적 다중 에이전트 팀으로 변환하는 메타 스킬입니다.
 
 ## 빠른 시작
