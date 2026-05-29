@@ -26,12 +26,12 @@ Choose the scope that fits your workflow:
 
 - **Global install** — available in every Antigravity CLI session:
   ```bash
-  mkdir -p ~/.gemini/config/plugins
-  cp -R .agents/plugins/harness-plugin ~/.gemini/config/plugins/
+  git clone https://github.com/Kyeong1024/antigravity-cli-harness
+  agy plugin install antigravity-cli-harness
   ```
-- **Workspace install** — scoped to a single project. Copy the `.agents/` folder into the project root:
+- **Workspace install** — scoped to a single project. Clone the plugin into `.agents/plugins/harness-plugin` in the project root:
   ```bash
-  cp -R .agents /path/to/your/project/
+  git clone https://github.com/Kyeong1024/antigravity-cli-harness .agents/plugins/harness-plugin
   ```
 
 Workspace definitions take precedence over global ones, so you can iterate on a project-specific harness without touching the global install.

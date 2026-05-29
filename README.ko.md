@@ -26,12 +26,12 @@
 
 - **전역 설치** — 모든 Antigravity CLI 세션에서 사용 가능:
   ```bash
-  mkdir -p ~/.gemini/config/plugins
-  cp -R .agents/plugins/harness-plugin ~/.gemini/config/plugins/
+  git clone https://github.com/Kyeong1024/antigravity-cli-harness
+  agy plugin install antigravity-cli-harness
   ```
-- **워크스페이스 설치** — 특정 프로젝트에만 적용. `.agents/` 폴더를 프로젝트 루트에 복사:
+- **워크스페이스 설치** — 특정 프로젝트에만 적용. 프로젝트 루트의 `.agents/plugins/harness-plugin`에 플러그인을 클론:
   ```bash
-  cp -R .agents /path/to/your/project/
+  git clone https://github.com/Kyeong1024/antigravity-cli-harness .agents/plugins/harness-plugin
   ```
 
 워크스페이스 정의가 전역 설정보다 우선하므로, 전역 설치를 건드리지 않고 프로젝트별 하네스를 반복 개선할 수 있습니다.
