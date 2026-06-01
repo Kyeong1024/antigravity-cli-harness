@@ -156,6 +156,10 @@ Antigravity CLI는 `invoke_subagent` 도구를 통해 멀티-에이전트 워크
 
 Antigravity CLI에서 서브에이전트는 `.agents/plugins/{plugin-name}/agents/{agent-name}/agent.json` 파일에 JSON 포맷으로 정의된다.
 
+> [!NOTE]
+> **다국어 및 영문 작성 규칙**
+> 사용자가 영어로 하네스를 구성하도록 요청했거나 프로젝트의 기본 언어가 영어인 경우, `description` 및 `systemPromptSections` 내의 모든 지침 텍스트(핵심 역할, 작업 원칙, 입출력 프로토콜 등)는 자연스러운 **영문(Technical English)**으로 번역 및 작성되어야 합니다. 한국어 주석이나 텍스트를 남기지 않습니다.
+
 ### `agent.json` 정의 구조 예시
 
 ```json

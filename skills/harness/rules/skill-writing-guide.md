@@ -91,6 +91,16 @@ ALWAYS use pdfplumber for table extraction. NEVER use PyPDF2 for tables.
 
 "~합니다", "~할 수 있습니다" 대신 "~한다", "~하라" 형태를 사용한다. 스킬은 지시서이다.
 
+### 다국어 및 영문 작성 원칙
+
+사용자가 영어로 요청을 하거나, 프로젝트의 글로벌 협업 환경/코드베이스 표준이 영어인 경우, 스킬(`SKILL.md`)은 완벽하게 영어로 작성되어야 한다.
+
+1. **YAML Frontmatter Description**: Antigravity CLI가 이해하기 쉽도록 구체적이고 명확한 영어 기술 용어를 사용하여 "pushy"하게 작성한다.
+2. **자연스러운 영어 어조 (Technical English)**:
+   - 지시조의 동사 원형(Imperative Mood)으로 작성한다. (예: "Create", "Extract", "Validate" 등. "~is used to" 나 "~should be" 와 같은 수동태 대신 능동태 명령형 권장)
+   - 설명식 문장에서는 3인칭 단수/현재형 또는 간결한 문장 구조를 사용한다.
+3. **용어 통일**: 한국어 스킬에서의 "서브에이전트", "산출물", "오케스트레이터" 등의 용어는 영문 스킬에서 "subagent", "artifact", "orchestrator"로 번역 및 정의를 일관되게 사용한다.
+
 ### 컨텍스트 절약
 
 컨텍스트 윈도우는 공공재다. 모든 문장이 토큰 비용을 정당화하는지 자문한다:
